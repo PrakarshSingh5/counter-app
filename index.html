@@ -1,23 +1,33 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  Hello world
-  <script src="script.js"></script>
+    <header>
+        <h1>People Entered</h1>
+    </header>
+<div class="name">
+    <h2 id="count-el">0</h2>
+</div>
 
- <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+<div id="increase">
+    <button id="increment-btn" onclick="increment()">INCREMENT</button>
+</div>
+
+
+
+<div id="saving">
+   <button id="save-btn" onclick="save()">SAVE</button>
+</div>
+
+   <p id="save-el">Previous Enteries</p>
 </body>
+<script src="script.js">
 
+    </script>
 </html>

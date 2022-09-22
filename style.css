@@ -1,4 +1,63 @@
-html, body {
-  height: 100%;
-  width: 100%;
+body{
+   box-sizing: border-box;   
+   background-color: black;
+   
+}
+h1{
+    color: white;
+    font-size: 75px;
+}
+button{
+    border: none;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: red;
+    box-shadow: 0 1px 3px 5px blue;
+}
+#increment-btn{
+    background: darkred;
+  
+}
+#save-btn{
+    background:darkred ;
+}
+header{
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid black ;
+    box-shadow: 0 1px 3px 5px blue;
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 0 1px 3px 5px  blue;
+    font-size: x-large;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    box-shadow: 0 1px 3px 5px  white;
+    font-size: 90px;
+
 }
